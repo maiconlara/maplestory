@@ -4,8 +4,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        patrick: ["Patrick Hand", "sans-serif"],
-        quick: ["Quicksand", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+      },
+      backgroundImage: {
+        hero: "url('/src/assets/bgCover.webp')",
       },
     },
   },
