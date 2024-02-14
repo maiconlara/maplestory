@@ -8,9 +8,7 @@ const Home = () => {
     <div className="flex flex-col items-center justify-center w-full h-full">
       <div className="flex flex-col px-24 gap-12 bg-hero bg-cover w-full min-h-[700px] h-full bg-no-repeat bg-center overflow-hidden justify-center">
         <div className="flex flex-col gap-3 pt-6">
-          <p className="font-poppins font-medium text-4xl  ">
-            MuLung Story
-          </p>
+          <p className="font-poppins font-medium text-4xl  ">MuLung Story</p>
           <p className="font-poppins font-medium text-4xl ">
             The new era Maple Server!
           </p>
@@ -21,6 +19,12 @@ const Home = () => {
         </div>
       </div>
       <div className="flex flex-none  w-full h-1 bg-white" />
+
+      <div className="flex flex-col w-full px-24 h-full mt-16 justify-center items-center">
+        <p className="font-poppins font-semibold text-4xl ">
+          Overview
+        </p>
+      </div>
     </div>
   );
 };
