@@ -29,7 +29,11 @@ const Header = () => {
 
   return (
     <div className="flex px-24 max-w-full max-h-[115px] min-h-[115px] w-full h-full gap-20 bg-white/40 fixed top-0 justify-start items-center">
-      <img src={logoLeaf} className="h-16" />
+      <img
+        src={logoLeaf}
+        className="h-16 cursor-pointer select-none"
+        onClick={() => navigate("/")}
+      />
 
       {headerButtons.map((item, index) => {
         return (
