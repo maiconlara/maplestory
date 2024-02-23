@@ -44,7 +44,7 @@ const Home = () => {
         </div>
         <div className="flex flex-col w-full items-center justify-center gap-4 ">
           <p className="font-poppins font-semibold text-4xl ">Features</p>
-          <div className="flex flex-col gap-6 w-full justify-start ">
+          <div className="flex flex-col gap-8 w-full justify-start ">
             <div className="flex flex-row gap-4 w-full items-center justify-start ">
               <IconTrendingUp size={24} />
               <p className="font-poppins font-semibold text-lg">
@@ -94,6 +94,7 @@ const Home = () => {
                 And much more!
               </p>
             </div>
+            <DefaultButton text="lets play!" link="register" useHref />
           </div>
         </div>
       </div>
