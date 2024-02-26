@@ -94,7 +94,7 @@ const Home = () => {
                 And much more!
               </p>
             </div>
-            <DefaultButton text="lets play!" link="register" useHref />
+            <DefaultButton text="lets play!" link="register"  />
           </div>
         </div>
       </div>
