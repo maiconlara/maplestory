@@ -31,7 +31,7 @@ const Header = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex px-24 max-w-full max-h-[115px] min-h-[115px] w-full h-full bg-white/40 fixed top-0 justify-between items-center">
+    <div className="flex px-24 max-w-full max-h-[115px] min-h-[115px] w-full h-full bg-white/40 fixed top-0 justify-between items-center z-10">
       <div className="flex flex-row gap-20 items-center justify-center">
         <img
           src={logoLeaf}
