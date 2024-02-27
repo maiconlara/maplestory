@@ -31,8 +31,8 @@ const headerButtons = [
 
 const Header = () => {
   const [headerColor, setHeaderColor] = useState("#ffffff66");
-
   const navigate = useNavigate();
+
   const { scrollYProgress } = useScroll();
 
   useMotionValueEvent(scrollYProgress, "change", (latest) => {
