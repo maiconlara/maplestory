@@ -1,10 +1,10 @@
 import { IconBrandDiscordFilled, IconUserFilled } from "@tabler/icons-react";
 import { useMotionValueEvent, useScroll } from "framer-motion";
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import logoLeaf from "../../assets/leafLogo.png";
-import TextButton from "./text-button";
+import { useState } from "react";
 import HeaderButton from "./header-button";
+import TextButton from "./text-button";
+import logoLeaf from "../../assets/leafLogo.png";
 
 const headerButtons = [
   {
@@ -33,9 +33,9 @@ const Header = () => {
   const [headerColor, setHeaderColor] = useState("#ffffff66");
   const navigate = useNavigate();
 
-  const { scrollYProgress } = useScroll();
+  const { scrollY } = useScroll();
 
-  useMotionValueEvent(scrollYProgress, "change", (latest) => {
+  useMotionValueEvent(scrollY, "change", (latest) => {
     latest > 0 ? setHeaderColor("white") : setHeaderColor("#ffffff66");
   });
 
