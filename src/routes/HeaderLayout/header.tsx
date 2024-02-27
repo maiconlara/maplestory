@@ -41,7 +41,7 @@ const Header = () => {
 
   return (
     <div
-      className="flex px-24 max-w-full max-h-[115px] min-h-[115px] w-full h-full fixed top-0 justify-between items-center z-10 transition-colors "
+      className="flex px-24 max-w-full max-h-[115px] min-h-[115px] shadow w-full h-full fixed top-0 justify-between items-center z-10 transition-colors "
       style={{
         backgroundColor: headerColor,
       }}
