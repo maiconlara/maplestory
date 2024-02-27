@@ -6,6 +6,7 @@ interface DefaultButtonProps {
   useHref?: boolean;
 }
 
+//Default button in the application
 const DefaultButton = ({ text, link, useHref }: DefaultButtonProps) => {
   const navigate = useNavigate();
 
