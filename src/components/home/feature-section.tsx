@@ -8,60 +8,68 @@ import {
   IconTrendingUp,
 } from "@tabler/icons-react";
 import DefaultButton from "../default-button";
+import mobGif1 from "../../assets/mobGif1.gif";
+import mobGif2 from "../../assets/mobGif2.gif";
 
 const FeatureSection = () => {
   return (
     <div className="flex flex-col w-full items-center justify-center gap-6 ">
       <p className="font-poppins font-semibold text-4xl ">Features</p>
-      <div className="flex flex-col gap-8 w-full justify-start ">
-        <div className="flex flex-row gap-4 w-full items-center justify-start ">
-          <IconTrendingUp size={24} />
-          <p className="font-poppins font-semibold text-lg">
-            Game Progression:{" "}
-            <span className="font-normal font-poppins">
-              {" "}
-              3.2x EXP, 6x Quests, 2x DROP and 8x MESOS;{" "}
-            </span>{" "}
-          </p>
-        </div>
+      <div className="flex flex-row w-full">
+        <div className="flex flex-col gap-8 w-full justify-start ">
+          <div className="flex flex-row gap-4 w-full items-center justify-start ">
+            <IconTrendingUp size={24} />
+            <p className="font-poppins font-semibold text-lg">
+              Game Progression:{" "}
+              <span className="font-normal font-poppins">
+                {" "}
+                3.2x EXP, 6x Quests, 2x DROP and 8x MESOS;{" "}
+              </span>{" "}
+            </p>
+          </div>
 
-        <div className="flex flex-row gap-4 w-full items-center justify-start ">
-          <IconRocket size={24} />
-          <p className="font-poppins font-semibold text-lg">
-            Maximum Level 220;
-          </p>
-        </div>
+          <div className="flex flex-row gap-4 w-full items-center justify-start ">
+            <IconRocket size={24} />
+            <p className="font-poppins font-semibold text-lg">
+              Maximum Level 220;
+            </p>
+          </div>
 
-        <div className="flex flex-row gap-4 w-full items-center justify-start ">
-          <IconConfetti size={24} />
-          <p className="font-poppins font-semibold text-lg">
-            All party quests available;
-          </p>
-        </div>
+          <div className="flex flex-row gap-4 w-full items-center justify-start ">
+            <IconConfetti size={24} />
+            <p className="font-poppins font-semibold text-lg">
+              All party quests available;
+            </p>
+          </div>
 
-        <div className="flex flex-row gap-4 w-full items-center justify-start ">
-          <IconBalloon size={24} />
-          <p className="font-poppins font-semibold text-lg">
-            Seasonal hosted events;
-          </p>
+          <div className="flex flex-row gap-4 w-full items-center justify-start ">
+            <IconBalloon size={24} />
+            <p className="font-poppins font-semibold text-lg">
+              Seasonal hosted events;
+            </p>
+          </div>
+          <div className="flex flex-row gap-4 w-full items-center justify-start ">
+            <IconBan size={24} />
+            <p className="font-poppins font-semibold text-lg">
+              Functional anti-cheat;
+            </p>
+          </div>
+          <div className="flex flex-row gap-4 w-full items-center justify-start ">
+            <IconCoinBitcoin size={24} />
+            <p className="font-poppins font-semibold text-lg">
+              Own Cryptocurrency;
+            </p>
+          </div>
+          <div className="flex flex-row gap-4 w-full items-center justify-start ">
+            <IconMoodTongueWink size={24} />
+            <p className="font-poppins font-semibold text-lg">And much more!</p>
+          </div>
+          <DefaultButton text="lets play!" link="register" />
         </div>
-        <div className="flex flex-row gap-4 w-full items-center justify-start ">
-          <IconBan size={24} />
-          <p className="font-poppins font-semibold text-lg">
-            Functional anti-cheat;
-          </p>
+        <div className="flex relative w-[400px]">
+          <img src={mobGif1} className=" absolute top-0 right-12" />
+          <img src={mobGif2} className=" absolute top-0 right-0" />
         </div>
-        <div className="flex flex-row gap-4 w-full items-center justify-start ">
-          <IconCoinBitcoin size={24} />
-          <p className="font-poppins font-semibold text-lg">
-            Own Cryptocurrency;
-          </p>
-        </div>
-        <div className="flex flex-row gap-4 w-full items-center justify-start ">
-          <IconMoodTongueWink size={24} />
-          <p className="font-poppins font-semibold text-lg">And much more!</p>
-        </div>
-        <DefaultButton text="lets play!" link="register" />
       </div>
     </div>
   );
