@@ -8,14 +8,15 @@ import {
   IconTrendingUp,
 } from "@tabler/icons-react";
 import DefaultButton from "../default-button";
-import mobGif1 from "../../assets/mobGif1.gif";
-import mobGif2 from "../../assets/mobGif2.gif";
+import asset1 from "../../assets/asset1.png";
+import asset2 from "../../assets/asset2.png";
 
 const FeatureSection = () => {
   return (
     <div className="flex flex-col w-full items-center justify-center gap-6 ">
       <p className="font-poppins font-semibold text-4xl ">Features</p>
-      <div className="flex flex-row w-full">
+
+      <div className="flex flex-row w-full items-center">
         <div className="flex flex-col gap-8 w-full justify-start ">
           <div className="flex flex-row gap-4 w-full items-center justify-start ">
             <IconTrendingUp size={24} />
@@ -66,9 +67,11 @@ const FeatureSection = () => {
           </div>
           <DefaultButton text="lets play!" link="register" />
         </div>
-        <div className="flex relative w-[400px]">
-          <img src={mobGif1} className=" absolute top-0 right-12" />
-          <img src={mobGif2} className=" absolute top-0 right-0" />
+        <div className="flex justify-center items-center w-full h-full">
+          <div className="flex relative w-[300px] h-[200px] select-none">
+            <img src={asset1} className=" absolute bottom-0 left-24   " />
+            <img src={asset2} className=" absolute bottom-0 left-12   " />
+          </div>
         </div>
       </div>
     </div>
