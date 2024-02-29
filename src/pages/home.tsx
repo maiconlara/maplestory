@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full h-full pb-12">
       <Hero />
-      <div className="flex flex-none  w-full h-1 bg-white" />
+      <div className="flex flex-none  w-full h-1 bg-white" id="overview" />
 
-      <div className="flex flex-col w-full max-w-full px-32 h-full mt-16 justify-center items-center gap-20 mb-6">
+      <div className="flex flex-col w-full max-w-full px-28 h-full mt-16 justify-center items-center gap-24 mb-6">
         <OverViewSection />
         <FeatureSection />
       </div>
