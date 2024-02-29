@@ -1,7 +1,7 @@
 const OverViewSection = () => {
   return (
-    <div className="flex flex-col w-full items-center justify-center gap-6 ">
-      <p id="overview" className="font-poppins font-semibold text-4xl ">
+    <div className="flex flex-col w-[65vw] items-center justify-center gap-12 ">
+      <p className="font-poppins font-semibold text-4xl ">
         Overview
       </p>
       <p className="font-poppins font-medium text-xl text-center  ">
