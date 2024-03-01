@@ -9,7 +9,7 @@ interface HeaderButtonProps {
 const HeaderButton = ({ Icon, text, color }: HeaderButtonProps) => {
   return (
     <div
-      className="flex  items-center justify-center font-poppins font-semibold h-[40px] w-[160px] rounded-full text-white hover:cursor-pointer"
+      className="flex  items-center justify-center font-poppins font-semibold  h-[40px] lg:w-[11vw] xl:w-[160px]  rounded-full text-white hover:cursor-pointer"
       style={{
         backgroundColor: color,
       }}
