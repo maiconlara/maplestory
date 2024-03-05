@@ -11,7 +11,7 @@ const Home = () => {
       <Hero />
       <div className="flex flex-none  w-full h-1 bg-white" id="overview" />
 
-      <div className="flex flex-col w-full max-w-full px-28 h-full mt-16 justify-center items-center gap-24 mb-6">
+      <div className="flex flex-col w-full max-w-full h-full mt-16 justify-center items-center gap-24 mb-6">
         <OverViewSection />
         <FeatureSection />
       </div>
