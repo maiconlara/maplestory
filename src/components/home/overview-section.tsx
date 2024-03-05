@@ -1,10 +1,10 @@
 const OverViewSection = () => {
   return (
-    <div className="flex flex-col w-[65vw] items-center justify-center gap-12 ">
+    <div className="flex flex-col lg:w-[90vw] 2xl:w-[65vw] items-center justify-center gap-12 ">
       <p className="font-poppins font-semibold text-4xl ">
         Overview
       </p>
-      <p className="font-poppins font-medium text-xl text-center  ">
+      <p className="font-poppins font-medium text-xl lg:text-justify 2xl:text-center  ">
         MuLung Story is a MapleStory private server that is dedicated to
         providing a unique and challenging experience. We are a low-rate server
         that is focused on providing a nostalgic and challenging experience for
