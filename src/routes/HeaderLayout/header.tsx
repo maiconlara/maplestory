@@ -44,12 +44,12 @@ const Header = () => {
 
   return (
     <div
-      className="flex px-14 xl:px-24 max-w-full max-h-[115px] min-h-[115px] shadow w-full h-full fixed top-0 justify-between  items-center z-10 transition-colors "
+      className="flex px-14 xl:px-24 2xl:px-20 3xl:px-24 max-w-full max-h-[115px] min-h-[115px] shadow w-full h-full fixed top-0 justify-between  items-center z-10 transition-colors "
       style={{
         backgroundColor: headerColor,
       }}
     >
-      <div className="flex flex-row lg:gap-8 xl:gap-10 2xl:gap-20 items-center justify-center">
+      <div className="flex flex-row lg:gap-8 xl:gap-10 2xl:gap-10 3xl:gap-20 items-center justify-center">
         <img
           src={logoLeaf}
           className="h-16 cursor-pointer select-none"
