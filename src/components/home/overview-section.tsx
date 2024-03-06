@@ -4,7 +4,7 @@ const OverViewSection = () => {
       <p className="font-poppins font-semibold text-4xl ">
         Overview
       </p>
-      <p className="font-poppins font-medium text-xl lg:text-justify 2xl:text-center  ">
+      <p className="font-poppins font-medium text-xl text-justify  ">
         MuLung Story is a MapleStory private server that is dedicated to
         providing a unique and challenging experience. We are a low-rate server
         that is focused on providing a nostalgic and challenging experience for
