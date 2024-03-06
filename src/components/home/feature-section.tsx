@@ -13,7 +13,7 @@ import asset2 from "../../assets/asset2.png";
 
 const FeatureSection = () => {
   return (
-    <div className="flex flex-col lg:w-[90vw] 2xl:w-[60vw] items-center justify-center gap-12 ">
+    <div className="flex flex-col lg:w-[90vw] 2xl:w-[65vw] items-center justify-center gap-12 ">
       <p className="font-poppins font-semibold text-4xl ">Features</p>
 
       <div className="flex flex-row w-full items-center">
